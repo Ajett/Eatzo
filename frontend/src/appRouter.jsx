@@ -6,7 +6,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
 import RestaurantaMenu from "./components/RestaurantaMenu";
-import Cart from "./components/Cart"; // ✅ capital C
+import Cart from "./components/cart"; // ✅ capital C
 import Signup from "./components/Signup";
 import Login from "./components/Login";
 import UserContext from "./utils/UserContext";
