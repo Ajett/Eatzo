@@ -12,7 +12,7 @@ app.use(cors({
 origin:'http://localhost:5173'
 }))
 
-mongoose.connect('mongodb://localhost:27017/swiggy').then(() => {
+mongoose.connect('mongodb+srv://ak4882260_db_user:lKulZjoL6X1nRNY3@eatzo.f5kwpur.mongodb.net/').then(() => {
   console.log("Connect Successfully")
 }).catch(() => {
   console.log("database error")
